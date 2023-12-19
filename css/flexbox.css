@@ -1,0 +1,6 @@
+.headerPrincipal .container {
+    display: flex; /*2 elementos alineados 1 delado del otro*/
+    align-items: center; /*alineado en el medio*/
+    justify-content: space-between; /*espacio entre elementos*/
+    
+}
