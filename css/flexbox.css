@@ -28,3 +28,11 @@
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
 }
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column; /*elementos uno abajo de otro estilo columna*/
+    height: 260px; /*le damos una altura la columna*/
+    flex-wrap: wrap; /*cada altura dicha se quiebra y lo pone alado*/
+
+}
