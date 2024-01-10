@@ -48,10 +48,23 @@
 }
 
 .videoSobre .container {
-    display: flex;
-    
+    display: flex;    
 }
 
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-video{
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 2;
+}
 /* Responsive */
 /*con @media le decimos hasta que rango de px se utilizara el siguiente flexbox*/
 @media (max-width:768px){ 
